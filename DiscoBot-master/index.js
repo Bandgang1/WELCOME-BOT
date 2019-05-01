@@ -25,6 +25,7 @@ if (process.env.APPINSIGHTS_INSTRUMENTATIONKEY) {
 const Discord = require('discord.js');
 const utils = require('./utils/discordHelpers');
 require('./utils/javascriptHelpers');
+const config = require('./config.json');
 
 // Load env vars
 require('dotenv').config();
